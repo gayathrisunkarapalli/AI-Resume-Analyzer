@@ -1,0 +1,11 @@
+Test ID,Test Case,Input,Expected Result,Status
+TC01,PDF upload,Sample PDF,Resume text extracted,Pass
+TC02,DOCX upload,Sample DOCX,Resume text extracted,Pass
+TC03,Skill extraction,Resume containing Python SQL Pandas,Skills displayed,Pass
+TC04,Job matching,Valid resume,Role scores displayed,Pass
+TC05,Top recommendations,Valid resume,Top 3 roles displayed,Pass
+TC06,Target role,Machine Learning Engineer,Missing skills displayed,Pass
+TC07,Roadmap,Missing skills present,Weekly learning tasks displayed,Pass
+TC08,Invalid file,Unsupported extension,File rejected by uploader,Pass
+TC09,Empty/unreadable resume,Blank document,Extraction error shown,Pass
+TC10,Responsible AI,Any analysis,Guidance notice visible,Pass
